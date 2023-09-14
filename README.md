@@ -14,4 +14,6 @@ The folders contain the following information:
     - data/processed: Holds the relative error of the FFE for different cases in `numpy.savez` format. The *_YY* stands for the number of total years in the run and the *_c5* or *_c95* for the errors at the confidence intervals. 
 
 - figures: Contains the figures of the resulting work.
+
+Most of the analysis is done on the `mag_dependency_figures.ipynb` notebook. The analysis comparing all the cases vs all the cases is done at the `comparea_all_vs_all.py` script. The `peak_analist.py` contains a collection of functions to write peak files compatible with **PeakFQ** and to analyze its outputs.  
     
